@@ -132,6 +132,7 @@ table {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f9fbf3;
+  color: #374836;
 }
 
 .container {
@@ -139,6 +140,13 @@ body {
   margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.small-container {
+  max-width: 1063px;
+  margin: 0 auto;
+  padding-left: 188px;
+  padding-right: 188px;
 }
 
 .header {
@@ -173,4 +181,152 @@ body {
 }
 .header .header-container .header-menu .header-menu-item {
   cursor: pointer;
+}
+
+.main .projects-section {
+  padding-top: 212px;
+}
+.main .projects-section .projects-title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.main .projects-section .projects-title span {
+  font-weight: 600;
+  color: #849d83;
+}
+.main .projects-section .projects-subtitle {
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.main .projects-section .project-item {
+  margin-bottom: 50px;
+}
+.main .projects-section .project-item .project-img-wrapper {
+  overflow: hidden;
+  max-height: 480px;
+  display: flex;
+  align-items: center;
+}
+.main .projects-section .project-item .project-img-wrapper > img {
+  width: 100%;
+}
+.main .projects-section .project-item .project-item-text-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .projects-section .project-item .project-item-text-container .project-item-text-name-and-location {
+  display: flex;
+  gap: 42px;
+}
+.main .projects-section .project-item .project-item-text-container .project-item-text-name-and-location .project-item-text-wrapper .project-item-text-subtitle {
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7f8f80;
+}
+.main .projects-section .project-item .project-item-text-container .project-item-text-name-and-location .project-item-text-wrapper .project-item-text-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #374836;
+}
+.main .projects-section .project-item .project-item-text-container .project-item-text-description {
+  width: 40%;
+  color: #7f8f80;
+  line-height: 24px;
+}
+.main .contacts-section {
+  background-color: #374836;
+  color: #ffffff;
+  padding: 96px 0px;
+  background-image: url(images/contacts-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .contacts-section .contacts-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main .contacts-section .contacts-container .contacts-title {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 88px;
+  text-transform: uppercase;
+}
+.main .contacts-section .contacts-container .contacts-title span {
+  color: #849d83;
+  font-weight: 700;
+}
+.main .contacts-section .contacts-container .contacts-wrapper {
+  width: 50%;
+  line-height: 26px;
+}
+.main .contacts-section .contacts-container .contacts-wrapper .bold-text {
+  font-weight: 700;
+}
+.main .contacts-section .contacts-container .contacts-wrapper .contacts-item:first-child {
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #242924;
+  padding: 82px 0px;
+  color: #ffffff;
+}
+.footer .footer-title {
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.footer .footer-links-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 54px;
+}
+.footer .footer-links-container a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.footer .footer-copyright-container {
+  border-top: 1px solid #ffffff;
+  margin-top: 80px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-copyright-container p {
+  opacity: 0.75;
+}
+.footer .footer-copyright-container a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* 
+
+--------			--------
+--------  Adaptive  -------- 
+--------			--------
+
+*/
+@media (max-width: 1200px) {
+  .small-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
