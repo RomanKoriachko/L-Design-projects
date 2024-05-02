@@ -233,7 +233,7 @@ body {
 		display: flex;
 		justify-content: space-between;
 		gap: 54px;
-		a {
+		.footer-link {
 			display: block;
 			color: white;
 			text-decoration: none;
@@ -367,10 +367,10 @@ body {
 		.footer-links-container {
 			flex-direction: column;
 			gap: 12px;
-			a {
+			.footer-link {
 				margin-bottom: 12px;
 			}
-			a:last-child {
+			.footer-link:last-child {
 				margin-bottom: 0;
 			}
 		}
@@ -426,7 +426,7 @@ body {
 		padding-top: 19px;
 		padding-bottom: 13px;
 		.footer-links-container {
-			a {
+			.footer-link {
 				font-size: 12px;
 				line-height: 24px;
 			}

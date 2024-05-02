@@ -362,7 +362,7 @@ body {
   justify-content: space-between;
   gap: 54px;
 }
-.footer .footer-links-container a {
+.footer .footer-links-container .footer-link {
   display: block;
   color: white;
   text-decoration: none;
@@ -472,10 +472,10 @@ body {
     flex-direction: column;
     gap: 12px;
   }
-  .footer .footer-links-container a {
+  .footer .footer-links-container .footer-link {
     margin-bottom: 12px;
   }
-  .footer .footer-links-container a:last-child {
+  .footer .footer-links-container .footer-link:last-child {
     margin-bottom: 0;
   }
 }
@@ -519,7 +519,7 @@ body {
     padding-top: 19px;
     padding-bottom: 13px;
   }
-  .footer .footer-links-container a {
+  .footer .footer-links-container .footer-link {
     font-size: 12px;
     line-height: 24px;
   }
